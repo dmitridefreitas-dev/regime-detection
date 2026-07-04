@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regimes"
+version = "0.1.0"
+description = "Market regime detection with a from-scratch 2-state Gaussian HMM (Baum-Welch, filtered vs smoothed probabilities, Viterbi) and an honestly-evaluated regime-aware allocation on SPY."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Dmitri De Freitas" }]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "yfinance>=0.2.40",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "matplotlib>=3.8",
+    "notebook",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

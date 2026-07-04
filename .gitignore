@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+
+# Tooling
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Cached market data (downloaded on first run)
+data/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
