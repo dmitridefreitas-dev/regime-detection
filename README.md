@@ -1,5 +1,7 @@
 # regime-detection
 
+[![CI](https://github.com/dmitridefreitas-dev/regime-detection/actions/workflows/ci.yml/badge.svg)](https://github.com/dmitridefreitas-dev/regime-detection/actions/workflows/ci.yml)
+
 📄 **[Report (PDF)](notebooks/regime-detection-report.pdf)** · 📓 [interactive notebook](notebooks/study.ipynb)
 
 **Implemented a 2-state Gaussian hidden Markov model from scratch — Baum-Welch EM
