@@ -1,5 +1,7 @@
 # regime-detection
 
+📄 **[Report (PDF)](notebooks/regime-detection-report.pdf)** · 📓 [interactive notebook](notebooks/study.ipynb)
+
 **Implemented a 2-state Gaussian hidden Markov model from scratch — Baum-Welch EM
 with scaled forward-backward recursions, filtered and smoothed inference, Viterbi
 decoding, ~200 lines, validated by recovering known parameters from simulated chains —
